@@ -1,37 +1,154 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/kyouma052/jayakusuma.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <!-- MY FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
 
-```markdown
-Syntax highlighted code block
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="part/css/style.css">
 
-# Header 1
-## Header 2
-### Header 3
+  <title>Kyouma Developer</title>
+</head>
 
-- Bulleted
-- List
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">KyoumaDeveloper</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">About</a>
+          <a class="nav-item btn btn-primary rounded-pill bulet" href="#">Join Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
 
-1. Numbered
-2. List
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Get work done <span>faster</span><br> and <span>better</span> with us</h1>
+      <a href="" class="btn btn-primary rounded-pill bulet">Our work</a>
+    </div>
+  </div>
+  <!-- Akhir Jumbotron -->
 
-**Bold** and _Italic_ and `Code` text
+  <!-- Container -->
+  <div class="container">
 
-[Link](url) and ![Image](src)
-```
+    <!-- Info panel -->
+    <div class="row justify-content-center">
+      <div class="col-10 info-panel">
+        <div class="row">
+          <div class="col-lg">
+            <img src="part/img/employee.png" alt="Employee" class="float-left">
+            <h4>24 Hours</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-lg">
+            <img src="part/img/hires.png" alt="High Res" class="float-left">
+            <h4>High-Res</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-lg">
+            <img src="part/img/security.png" alt="Security" class="float-left">
+            <h4>Security</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir info panel -->
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    <!-- Workingspace -->
+    <div class="row workingspace">
+      <div class="col-lg-6">
+        <img src="part/img/workingspace.png" alt="Workingspace" class="img-fluid">
+      </div>
+      <div class="col-lg-5">
+        <h3>You <span>work</span> like at <span>home</span></h3>
+        <p>Bekerja dengan suasana hati yang lebih asik dan mempelajari hal baru setiap harinya.</p>
+        <a href="" class="btn btn-primary rounded-pill bulet">Gallery</a>
+      </div>
+    </div>
+    <!-- Akhir Workingspace -->
 
-### Jekyll Themes
+    <!-- Testimonial -->
+    <section class="testimonial">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <h5>" Bekerja dengan suasana hati yang lebih asik
+            dan mempelajari hal baru setiap harinya."</h5>
+        </div>
+      </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kyouma052/jayakusuma.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+      <div class="row justify-content-center">
+        <div class="col-lg-6 justify-content-center d-flex">
+          <figure class="figure">
+            <img src="part/img/img1.png" class="figure-img img-fluid rounded-circle" alt="Testi 1">
+          </figure>
+          <figure class="figure">
+            <img src="part/img/img2.png" class="figure-img img-fluid rounded-circle utama" alt="Testi 2">
+            <figcaption class="figure-caption">
+              <h5>Sunny Ye</h5>
+              <p>Designer</p>
+            </figcaption>
+          </figure>
+          <figure class="figure">
+            <img src="part/img/img3.png" class="figure-img img-fluid rounded-circle" alt="Testi 3">
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Testimonial -->
 
-### Support or Contact
+    <!-- Footer -->
+    <div class="row footer">
+      <div class="col text-center">
+        <p>&copy; 2020 All Right Reserved by KyoumaDeveloper</p>
+      </div>
+    </div>
+    <!-- Akhir Footer -->
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  </div>
+  <!-- Akhir Container -->
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <!-- ONLINE JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
